@@ -4,7 +4,7 @@ import {baseURL} from "../configs";
 const axiosService = axios.create({baseURL})
 
 axiosService.interceptors.request.use(response=> {
-    response.headers.Authorization = 'Authorization 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'
+    response.headers.Authorization = 'Authorization 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'
     return response
 })
 
