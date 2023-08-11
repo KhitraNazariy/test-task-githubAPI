@@ -1,0 +1,84 @@
+.input-field {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    width: 300px;
+    transition: border-color 0.3s ease-in-out;
+}
+
+.input-field:focus {
+    border-color: blue;
+    outline: none;
+}
+
+.button {
+    padding: 10px 20px;
+    background-color: blue;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.button:hover {
+    background-color: #0055cc;
+}
+.button:active {
+    background-color: #004499;
+}
+.button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+    opacity: 0.6;
+}
+.button:enabled:hover {
+    background-color: #0055cc;
+}
+
+.userWrapper{
+    margin-top: 50px;
+    margin-left: 30px;
+}
+.userName {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+
+.userImg {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+
+.userLink {
+    background: blue;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    color: #ffffff;
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
+    border-radius: 5px;
+}
+
+.userBio {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 10px;
+}
+
+.userLink:hover {
+    background: #0055cc;
+}
+
+
+
